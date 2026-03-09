@@ -1,6 +1,6 @@
 # 🏎️ F1 Telemetry Dashboard
 
-> Compare qualifying lap telemetry between any two drivers — speed, throttle, and track position — for the 2023 Monaco Grand Prix.
+> Compare qualifying lap telemetry between any two drivers, speed, throttle, and track position, for the 2023 Monaco Grand Prix.
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)
 ![Dash](https://img.shields.io/badge/Dash-Plotly-00bfff?style=flat&logo=plotly&logoColor=white)
@@ -41,10 +41,10 @@ python app.py
 
 ## 📊 Features
 
-- **Speed Comparison** — side-by-side speed trace over lap distance
-- **Throttle Comparison** — throttle input % over lap distance  
-- **Track Map** — GPS position data overlaid for both drivers
-- **Lap Timing Table** — full qualifying lap breakdown with compound and speed trap data
+- **Speed Comparison:** side-by-side speed trace over lap distance
+- **Throttle Comparison:** throttle input % over lap distance  
+- **Track Map:** GPS position data overlaid for both drivers
+- **Lap Timing Table:** full qualifying lap breakdown with compound and speed trap data
 
 ---
 
@@ -62,16 +62,16 @@ f1-telemetry-dashboard/
 
 ## 🛠️ Built With
 
-- [FastF1](https://github.com/theOehrly/Fast-F1) — F1 timing and telemetry data
-- [Dash](https://dash.plotly.com/) — web app framework
-- [Plotly](https://plotly.com/python/) — interactive charts
+- [FastF1](https://github.com/theOehrly/Fast-F1) - F1 timing and telemetry data
+- [Dash](https://dash.plotly.com/) - web app framework
+- [Plotly](https://plotly.com/python/) - interactive charts
 
 ---
 
 ## 📌 Notes
 
 - Data is sourced from the official F1 timing API via FastF1
-- Currently configured for **Monaco 2023 Qualifying** — change `YEAR`, `GP`, and `SESSION` in `app.py` to load any other session
+- Currently configured for **Monaco 2023 Qualifying** - change `YEAR`, `GP`, and `SESSION` in `app.py` to load any other session
 - Cache folder is created automatically on first run
 
 ---
